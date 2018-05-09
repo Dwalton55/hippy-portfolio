@@ -17,3 +17,78 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+	background-image: url(../images/pattern1.png);
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: none;
+	height: auto;
+}
+
+.wrapper{
+	grid-column:2/4;
+
+}
+/* Header section */
+.header div{
+	
+}
+
+.shoptitle{
+	background: #f0776e;
+	width: 980px;
+}
+.header h1{
+	Font-Size: 50px;
+  	Font-Family: Arial Helvetica sans-serif;
+   	Text-transform: uppercase;
+	color: #FFFFFF;
+	widows: 980px;
+	   
+}
+ h2{
+	Font-Size: 18px;
+	Text-Transform: uppercase;
+	Font-Family: cursive, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.header img{
+	
+}
+/* header section end */
+
+/* info section */
+.info{
+	width: 980px;
+	background: white;
+	
+}
+
+.info div{
+	width: 980px;
+
+}
+.test{
+	padding: 20px;
+}
+.imageholder{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+.imageholder img{
+	border: solid grey;
+}
+
+/* info end */
+
+
+
+.footer{
+	background: #f0776e;
+	text-align: right;
+	width: 980px;
+	height: 50px;
+}
